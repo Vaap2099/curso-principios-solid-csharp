@@ -10,7 +10,7 @@ namespace OpenClose
 
         public override decimal CalculateSalaryMonthly()
         {
-            decimal hourValue = 5000M;
+            decimal hourValue = 50000M;
             decimal salary = hourValue * HoursWorked;
             return salary;
         }
